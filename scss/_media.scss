@@ -1,0 +1,197 @@
+@media (max-width: 1269px) {
+    .header {
+        &__container {
+            max-width: 1000px;
+        }
+    }
+    .pets__slider {
+        max-width: 890px;
+    }
+    .slider__item {
+        margin: 0 15px;
+    }
+    .header__container:before {
+        content: url(../images/dog-header-2.png);
+        background-size: contain;
+    }
+}
+@media (max-width: 1049px) {
+    .header {
+        &__container {
+            max-width: 700px;
+        }
+    }
+    .about {
+        &__container {
+            max-width: 800px;
+        }
+        &__title {
+            text-align: center;
+        }
+        &__text {
+            text-align: center;
+        }
+    }
+    .help {
+        &__contaniner {
+            max-width: 800px;
+        }
+    }
+    .donation {
+        &__container {
+            max-width: 800px;
+        }
+    }
+    .contacts {
+        &__container {
+            max-width: 800px;
+        }
+    }
+    .pets__slider {
+        max-width: 600px;
+    }
+    .next {
+        right: -50px;
+    }
+}
+@media (max-width: 701px) {
+    .pets__slider {
+        max-width: 300px;
+    }
+    .header {
+        &__container {
+            max-width: 600px;
+        }
+        &__link {
+            margin: 0 5px;
+        }
+    }
+}
+@media (max-width: 601px) {
+    .header {
+        &__container {
+            max-width: 400px;
+        }
+        &__text {
+            width: 300px;
+        }
+        &__link {
+            margin: 0 5px;
+        }
+        &__nav {
+            display: none;
+        }
+    }
+    .menu {
+        display: block;
+    }
+    .open-btn {
+        display: block;
+    }
+    .help {
+        &__item {
+            &-text {
+                margin: 30px 10px;
+            }
+        }
+    }
+}
+@media (max-width: 549px) {
+    .contacts__visit-title {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 501px) {
+    .donation {
+        &__pic img {
+            width: 353px;
+            height: 183px;
+        }
+        &__info {
+            &-legal {
+                width: 320px;
+            }
+        }
+    }
+    .prev {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        left: -20px;
+    }
+    .prev:before {
+        top: 3px;
+        left: 6px;
+    }
+    .next {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        right: -20px;
+    }
+    .next:before {
+        top: 3px;
+        left: 6px;
+    }
+}
+@media (max-width: 401px) {
+    .header {
+        &__container {
+            max-width: 300px;
+            height: 600px;
+        }
+        &__info {
+            padding-top: 70px;
+        }
+        &__title {
+            width: 310px;
+        }
+    }
+    .header__container:before {
+        display: none;
+    }
+    .about {
+        &__info {
+            width: 320px;
+            margin: 30px auto;
+        }
+        &__title {
+            width: 320px;
+        }
+        &__text {
+            width: 320px;
+        }
+    }
+   .pets {
+       &__title {
+           width: 310px;
+       }
+   }
+    .donation {
+        &__pic img {
+            width: 303px;
+            height: 156px;
+        }
+    }
+    .prev {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        left: 0;
+    }
+    .prev:before {
+        top: 3px;
+        left: 6px;
+    }
+    .next {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        right: 0;
+    }
+    .next:before {
+        top: 3px;
+        left: 6px;
+    }
+}
