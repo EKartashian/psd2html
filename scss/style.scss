@@ -135,6 +135,9 @@
     }
     &__btn {
         cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         outline-style: none;
         width: 205px;
         height: 52px;
@@ -276,6 +279,8 @@
         cursor: pointer;
         width: 267px;
         height: 52px;
+        display: flex;
+        justify-content: center;
         border-radius: 26px;
         outline-style: none;
         border: none;
